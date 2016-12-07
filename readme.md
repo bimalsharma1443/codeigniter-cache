@@ -2,7 +2,7 @@
 
 ## Load cache drive in codeigniter 
 		$this->load->driver('cache', array('adapter' => 'file', 'backup' => 'file'));
-### **if you are using memcached in codeigniter. You need to first install memcached in your machine**
+### For memcached in codeigniter. You need to first install memcached in your machine.
 * Step 1. 
 	$ sudo apt-get install memcached 
 * Step 2. 
