@@ -12,8 +12,8 @@
 		
 ## For query caching.
 * **Goto application/config/database.php and mension cache_on status and path**
-			cache_on' => TRUE,
-			'cachedir' => '/var/www/html/pusher/application/cache/',
+					cache_on' => TRUE,
+					'cachedir' => '/var/www/html/pusher/application/cache/',
 
 
 
