@@ -16,15 +16,19 @@
 		cache_on' => TRUE,
 		'cachedir' => '/var/www/html/pusher/application/cache/',
 		
+* **Mension cache on and off in model select query**
+		
 		$this->db->cache_on();
     			$result=$this->db->get('city');
     			return $result->result();
     		$this->db->cache_off();
 ## For view page caching
-* ** for view page mension below code at the top of the action function with refresh interval time**
+* **for view page mension below code at the top of the action function with refresh interval time**
 
 		$this->output->cache(10);
 		
 * **Disable caching from the page, mension below code at the top of action function**
 		
 		$this->output->delete_cache();
+		
+ 
